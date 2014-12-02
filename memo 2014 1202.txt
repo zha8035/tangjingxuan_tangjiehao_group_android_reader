@@ -1,0 +1,6 @@
+memo 2014 12 02 
+学习使用github +sourcetree 来管理项目
+下载 sourcetree
+bitbucket.org 
+每个人都要注册github, 创建publickey
+再把你的用户名发给我。
