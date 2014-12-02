@@ -4,3 +4,7 @@ memo 2014 12 02
 bitbucket.org 
 每个人都要注册github, 创建publickey
 再把你的用户名发给我。
+项目地址
+https://github.com/zha8035/tangjingxuan_tangjiehao_group_android_reader.git
+
+https://help.github.com/articles/generating-ssh-keys/
