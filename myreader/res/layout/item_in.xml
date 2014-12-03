@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dip"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:id="@+id/im"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dip"
+        android:contentDescription="@string/app_name" >
+    </ImageView>
+    <LinearLayout 
+        android:layout_marginLeft="5dp"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+         android:layout_gravity="center_vertical"
+        >
+        <LinearLayout 
+             android:layout_weight="1"
+        android:layout_height="25dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+       
+        >
+        <TextView 
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:text="文件名："
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/name1"
+            />
+        <TextView 
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/name2"
+            />
+        </LinearLayout>
+         <LinearLayout 
+             android:layout_weight="1"
+        android:layout_height="25dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        >
+        <TextView 
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:text="数量："
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/num1"
+            />
+        <TextView 
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_marginLeft="3dp"
+            android:text="文件名"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/num2"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    
+  <FrameLayout
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:layout_gravity="center_vertical|right" 
+     android:gravity="center_vertical|right"
+     android:orientation="horizontal"
+      >
+    <ImageView
+         android:layout_gravity="center_vertical|right" 
+        android:id="@+id/imChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:contentDescription="@string/app_name" >
+    </ImageView>
+    <TextView
+        android:layout_gravity="center_vertical|right" 
+        android:textColor="#000000"
+        android:id="@+id/imChoose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dip"
+        android:textSize="17sp" >
+    </TextView> 
+ </FrameLayout>
+
+</LinearLayout>

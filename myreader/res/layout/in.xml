@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main11"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/titlebar_big" >
+
+        <Button
+            android:id="@+id/btn_leftTop"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:onClick="back"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:text="@string/home"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/transparent"
+            android:onClick="showHelp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:textColor="#ffffff" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/upback" >
+
+        <TextView
+            android:id="@+id/flsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1dip"
+            android:text="@string/add_text_file"
+            android:textColor="#000000"
+            android:textSize="16sp" >
+        </TextView>
+
+       
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListView02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/listviewx" >
+    </ListView>
+
+</LinearLayout>

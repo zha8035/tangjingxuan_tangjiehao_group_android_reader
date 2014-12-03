@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+  <ImageView
+      android:scaleType="fitXY" 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:id="@+id/loding_im"
+      android:src="@drawable/loding2"
+      />  
+
+</LinearLayout>

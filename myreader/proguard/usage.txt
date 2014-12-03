@@ -1,0 +1,193 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.hck.book.adapter.FileDapter$GetView:
+    android.widget.ImageView imageView3
+com.hck.book.ui.BaseActivity:
+    public abstract void init()
+    public varargs abstract void refresh(java.lang.Object[])
+com.hck.book.ui.BookListActivity2:
+    private static final java.lang.String TAG
+    android.view.View menuView
+    143:148:public java.lang.String getSDPath()
+    312:312:public void init()
+    316:316:public varargs void refresh(java.lang.Object[])
+com.hck.book.ui.BookPageFactory:
+    private static final java.lang.String TAG
+    60:60:public int getM_fontSize()
+    64:64:public int getmLineCount()
+    392:392:public int getM_textColor()
+com.hck.book.ui.InActivity:
+    protected static final java.lang.String TAG
+    protected android.widget.TextView tt
+    protected android.widget.ImageView im
+    protected java.lang.String[] path
+    protected int[] num
+    protected java.util.ArrayList intList
+    protected android.app.AlertDialog ab
+com.hck.book.ui.MyApplication:
+    35:64:public void init()
+com.hck.book.ui.MyApplication$1
+com.hck.book.ui.PageWidget:
+    321:323:public void setScreen(int,int)
+    597:599:public boolean canDragOver()
+    614:616:public boolean right()
+com.hck.book.ui.Read:
+    private android.app.AlertDialog dialog
+    private static final java.lang.String TAG
+    protected int jumpPage
+com.hck.book.util.InstallManager:
+    private android.content.Context mContext
+    25:28:public InstallManager(android.content.Context)
+    31:42:public int getInstalledVersion(java.lang.String,boolean)
+    46:58:public boolean appIsStart(java.lang.String)
+com.hck.book.util.IsNetWork:
+    7:7:public IsNetWork()
+com.hck.book.util.MangerActivitys:
+    9:9:public MangerActivitys()
+    13:14:public static void addActivity(java.lang.Object)
+com.hck.book.util.MyTool:
+    7:7:public MyTool()
+com.hck.book.util.PinyinUtil:
+    16:16:public PinyinUtil()
+com.hck.book.util.UpdateManager:
+    private static final int DOWNLOAD
+    private static final int DOWNLOAD_FINISH
+    java.util.HashMap mHashMap
+com.hck.book.vo.BookVo:
+    19:20:public void setOwen(java.lang.String)
+com.hck.book.vo.MarkVo:
+    33:34:public void setText(java.lang.String)
+    41:42:public void setPage(int)
+    49:50:public void setCount(int)
+    57:58:public void setTime(java.lang.String)
+    65:66:public void setBookPath(java.lang.String)
+    73:74:public void setBegin(int)
+com.hck.date.FinalDate:
+    public static final java.lang.String DATABASE_TABKE
+    public static final java.lang.String APP_KEY
+    public static final java.lang.String FLAG
+    8:8:public FinalDate()
+com.hck.test.BuildConfig
+com.hck.test.R
+com.hck.test.R$anim
+com.hck.test.R$array
+com.hck.test.R$attr
+com.hck.test.R$color
+com.hck.test.R$drawable
+com.hck.test.R$id
+com.hck.test.R$layout
+com.hck.test.R$menu
+com.hck.test.R$raw
+com.hck.test.R$string
+com.hck.test.R$style
+com.hp.hpl.sparta.BuildDocument
+com.hp.hpl.sparta.CharCircBuffer
+com.hp.hpl.sparta.DOMException
+com.hp.hpl.sparta.DefaultLog
+com.hp.hpl.sparta.DefaultParseHandler
+com.hp.hpl.sparta.Document
+com.hp.hpl.sparta.Document$Index
+com.hp.hpl.sparta.Document$Observer
+com.hp.hpl.sparta.DocumentSource
+com.hp.hpl.sparta.Element
+com.hp.hpl.sparta.EmptyEnumeration
+com.hp.hpl.sparta.EncodingMismatchException
+com.hp.hpl.sparta.Node
+com.hp.hpl.sparta.Node$1
+com.hp.hpl.sparta.NodeListWithPosition
+com.hp.hpl.sparta.ParseByteStream
+com.hp.hpl.sparta.ParseCharStream
+com.hp.hpl.sparta.ParseException
+com.hp.hpl.sparta.ParseHandler
+com.hp.hpl.sparta.ParseLog
+com.hp.hpl.sparta.ParseSource
+com.hp.hpl.sparta.Parser
+com.hp.hpl.sparta.Sparta
+com.hp.hpl.sparta.Sparta$1
+com.hp.hpl.sparta.Sparta$2
+com.hp.hpl.sparta.Sparta$Cache
+com.hp.hpl.sparta.Sparta$CacheFactory
+com.hp.hpl.sparta.Sparta$HashtableCache
+com.hp.hpl.sparta.Sparta$Internment
+com.hp.hpl.sparta.Text
+com.hp.hpl.sparta.XPathVisitor
+com.hp.hpl.sparta.XPathVisitor$1
+com.hp.hpl.sparta.XPathVisitor$BooleanStack
+com.hp.hpl.sparta.XPathVisitor$BooleanStack$Item
+com.hp.hpl.sparta.xpath.AllElementTest
+com.hp.hpl.sparta.xpath.AttrCompareExpr
+com.hp.hpl.sparta.xpath.AttrEqualsExpr
+com.hp.hpl.sparta.xpath.AttrExistsExpr
+com.hp.hpl.sparta.xpath.AttrExpr
+com.hp.hpl.sparta.xpath.AttrGreaterExpr
+com.hp.hpl.sparta.xpath.AttrLessExpr
+com.hp.hpl.sparta.xpath.AttrNotEqualsExpr
+com.hp.hpl.sparta.xpath.AttrRelationalExpr
+com.hp.hpl.sparta.xpath.AttrTest
+com.hp.hpl.sparta.xpath.BooleanExpr
+com.hp.hpl.sparta.xpath.BooleanExprVisitor
+com.hp.hpl.sparta.xpath.ElementTest
+com.hp.hpl.sparta.xpath.ExprFactory
+com.hp.hpl.sparta.xpath.NodeTest
+com.hp.hpl.sparta.xpath.NodeTestVisitor
+com.hp.hpl.sparta.xpath.ParentNodeTest
+com.hp.hpl.sparta.xpath.PositionEqualsExpr
+com.hp.hpl.sparta.xpath.SimpleStreamTokenizer
+com.hp.hpl.sparta.xpath.Step
+com.hp.hpl.sparta.xpath.TextCompareExpr
+com.hp.hpl.sparta.xpath.TextEqualsExpr
+com.hp.hpl.sparta.xpath.TextExistsExpr
+com.hp.hpl.sparta.xpath.TextNotEqualsExpr
+com.hp.hpl.sparta.xpath.TextTest
+com.hp.hpl.sparta.xpath.ThisNodeTest
+com.hp.hpl.sparta.xpath.TrueExpr
+com.hp.hpl.sparta.xpath.Visitor
+com.hp.hpl.sparta.xpath.XPath
+com.hp.hpl.sparta.xpath.XPathException
+com.snda.tts.service.ITtsService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_activate
+    static final int TRANSACTION_speak
+    static final int TRANSACTION_stopCaller
+    static final int TRANSACTION_stopCallerAll
+    13:16:public ITtsService$Stub()
+    34:34:public android.os.IBinder asBinder()
+com.snda.tts.service.ITtsService$Stub$Proxy:
+    104:104:public java.lang.String getInterfaceDescriptor()
+com.snda.tts.service.SndaTts:
+    17:17:public SndaTts()
+net.sourceforge.pinyin4j.ChineseToPinyinResource$ChineseToPinyinResourceHolder:
+    private ChineseToPinyinResource$ChineseToPinyinResourceHolder()
+net.sourceforge.pinyin4j.ChineseToPinyinResource$Field
+net.sourceforge.pinyin4j.GwoyeuRomatzyhResource
+net.sourceforge.pinyin4j.GwoyeuRomatzyhResource$1
+net.sourceforge.pinyin4j.GwoyeuRomatzyhResource$GwoyeuRomatzyhSystemResourceHolder
+net.sourceforge.pinyin4j.GwoyeuRomatzyhTranslator
+net.sourceforge.pinyin4j.PinyinFormatter:
+    PinyinFormatter()
+net.sourceforge.pinyin4j.PinyinHelper:
+    public static java.lang.String[] toHanyuPinyinStringArray(char)
+    public static java.lang.String[] toTongyongPinyinStringArray(char)
+    public static java.lang.String[] toWadeGilesPinyinStringArray(char)
+    public static java.lang.String[] toMPS2PinyinStringArray(char)
+    public static java.lang.String[] toYalePinyinStringArray(char)
+    private static java.lang.String[] convertToTargetPinyinStringArray(char,net.sourceforge.pinyin4j.PinyinRomanizationType)
+    public static java.lang.String[] toGwoyeuRomatzyhStringArray(char)
+    private static java.lang.String[] convertToGwoyeuRomatzyhStringArray(char)
+    public static java.lang.String toHanyuPinyinString(java.lang.String,net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat,java.lang.String)
+    private static java.lang.String getFirstHanyuPinyinString(char,net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat)
+    private PinyinHelper()
+net.sourceforge.pinyin4j.PinyinRomanizationResource
+net.sourceforge.pinyin4j.PinyinRomanizationResource$1
+net.sourceforge.pinyin4j.PinyinRomanizationResource$PinyinRomanizationSystemResourceHolder
+net.sourceforge.pinyin4j.PinyinRomanizationTranslator
+net.sourceforge.pinyin4j.PinyinRomanizationType
+net.sourceforge.pinyin4j.TextHelper
+net.sourceforge.pinyin4j.format.HanyuPinyinCaseType:
+    public java.lang.String getName()
+net.sourceforge.pinyin4j.format.HanyuPinyinToneType:
+    public java.lang.String getName()
+net.sourceforge.pinyin4j.format.HanyuPinyinVCharType:
+    public java.lang.String getName()
+net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination:
+    private static final long serialVersionUID

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bookid">
+        <item>book0.txt</item>
+         <item>book1.txt</item>
+    </string-array>
+    <string-array name="bookname">
+         <item>蝌蚪笑话</item>
+          <item>祝福短信</item>
+    </string-array>
+    <string-array name="bookauthor">
+           <item>老科</item>
+            <item>老科</item>
+    </string-array>
+ 
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<style name="FullHeightDialog"
+    parent="android:style/Theme.Dialog">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="text_style">
+      <item name="android:textSize">15sp</item>
+      <item name="android:textColor">#FFFFFF</item>
+      <item name="android:textStyle">bold</item>
+  </style>
+ 
+</resources>

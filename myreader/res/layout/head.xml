@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/titlebar_big" >
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_head"
+             android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:shadowColor="#ff000000"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+             />
+
+        <Button
+            android:id="@+id/btn_rightTop"
+            android:onClick="addText"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_width="45dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent"
+            android:text="@string/add_text"
+            />
+
+        <Button
+            android:id="@+id/Button01"
+            android:onClick="addText"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_width="45dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:textColor="#ffffff" 
+            android:background="@android:color/transparent"
+             android:text="@string/online"/>
+
+    </RelativeLayout>
